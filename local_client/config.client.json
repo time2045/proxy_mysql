@@ -1,0 +1,5 @@
+{
+  "local_listen_address": "127.0.0.1:3307",
+  "server_ws_url": "ws://127.0.0.1:16781/mysql",
+  "log_path": "local_client.log"
+}
