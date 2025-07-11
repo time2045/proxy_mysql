@@ -1,0 +1,5 @@
+{
+  "listen_address": "127.0.0.1:9090",
+  "mysql_server_address": "127.0.0.1:3306",
+  "log_path": "server_proxy.log"
+}
