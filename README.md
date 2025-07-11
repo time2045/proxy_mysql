@@ -84,6 +84,7 @@ You need to configure both the client and the server by editing their respective
 
 ### Compilation
 
+<<<<<<< HEAD
 You can compile the client and server manually for your current operating system, cross-compile for other platforms, or use the provided PowerShell script to build for all supported platforms at once.
 
 #### Using the Build Script (Recommended)
@@ -101,6 +102,11 @@ After running the script, you will find all the compiled binaries in the `builds
 If you prefer to compile manually, follow these instructions.
 
 ##### Compile for Current OS
+=======
+You can compile the client and server for your current operating system or cross-compile for other platforms like Linux.
+
+#### Compile for Current OS
+>>>>>>> 0c63753e48170a896667be40cec851226f81d5b8
 
 - **Build `server_proxy`**:
   ```bash
@@ -111,7 +117,11 @@ If you prefer to compile manually, follow these instructions.
   go build -o local_client ./local_client/
   ```
 
+<<<<<<< HEAD
 ##### Cross-Compile for Linux (amd64)
+=======
+#### Cross-Compile for Linux (amd64)
+>>>>>>> 0c63753e48170a896667be40cec851226f81d5b8
 
 - **Build `server_proxy` for Linux**:
   ```bash
