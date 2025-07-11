@@ -106,7 +106,6 @@ go mod tidy
 您可以为当前操作系统编译客户端和服务器，或为其他平台（如 Linux）进行交叉编译。
 
 #### 为当前操作系统编译
->>>>>>> 0c63753e48170a896667be40cec851226f81d5b8
 
 - **编译 `server_proxy`**:
   ```bash
@@ -117,11 +116,9 @@ go mod tidy
   go build -o local_client ./local_client/
   ```
 
-<<<<<<< HEAD
 ##### 交叉编译 Linux (amd64) 版本
 =======
 #### 交叉编译 Linux (amd64) 版本
->>>>>>> 0c63753e48170a896667be40cec851226f81d5b8
 
 - **为 Linux 编译 `server_proxy`**:
   ```bash
