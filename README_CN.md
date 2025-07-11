@@ -84,9 +84,23 @@ go mod tidy
 
 ### 编译
 
-您可以为当前操作系统编译客户端和服务器，或为其他平台（如 Linux）进行交叉编译。
+您可以手动为当前操作系统编译客户端和服务器，为其他平台进行交叉编译，或者使用提供的 PowerShell 脚本一次性为所有支持的平台进行构建。
 
-#### 为当前操作系统编译
+#### 使用构建脚本 (推荐)
+
+在 Windows 上，您可以使用提供的 PowerShell 脚本为所有目标平台（Windows、Linux、macOS）编译客户端和服务器。
+
+```powershell
+.\build.ps1
+```
+
+运行脚本后，您将在 `builds` 目录中找到所有已编译的二进制文件。
+
+#### 手动编译
+
+如果您喜欢手动编译，请按照以下说明操作。
+
+##### 为当前操作系统编译
 
 - **编译 `server_proxy`**:
   ```bash
@@ -97,7 +111,7 @@ go mod tidy
   go build -o local_client ./local_client/
   ```
 
-#### 交叉编译 Linux (amd64) 版本
+##### 交叉编译 Linux (amd64) 版本
 
 - **为 Linux 编译 `server_proxy`**:
   ```bash
